@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Tabla de Clientes</h1>
+  <input type="text" id="search" placeholder="Buscar cliente...">
+  <button onclick="search()">Consultar</button>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Placa</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Nombre</th>
+        <th>Cédula</th>
+        <th>Dirección</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <tr>
+        <td>ABC123</td>
+        <td>Ford</td>
+        <td>Focus</td>
+        <td>John Doe</td>
+        <td>1234567890</td>
+        <td>123 Main St</td>
+      </tr>
+      <tr>
+        <td>DEF456</td>
+        <td>Toyota</td>
+        <td>Corolla</td>
+        <td>Jane Smith</td>
+        <td>0987654321</td>
+        <td>456 Elm St</td>
+      </tr>
+      <!-- Agrega más filas con los datos de tus clientes aquí -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
